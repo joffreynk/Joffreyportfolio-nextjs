@@ -22,10 +22,10 @@ const BackgroundCircle = (props: Props) => {
     }}
 
      className='relative flex justify-center items-center'>
-        <div className='absolute border border-[#333] rounded-full animate-ping w-[170px] h-[170px] mt-50' />
-        <div className='absolute border border-[#b99c3c] opacity-5 rounded-full w-[220px] h-[220px] mt-50' />
-        <div className='absolute border border-[#beab6a] rounded-full animate-ping w-[220px] h-[220px] mt-50' />
-        <div className='absolute border border-[#333] rounded-full animate-pulse  w-[450px] h-[450px] mt-50' />
+        <div className='absolute border border-[#333] rounded-full animate-ping w-[200px] h-[200px] mt-50' />
+        <div className='absolute border border-[#b99c3c] opacity-5 rounded-full w-[320px] h-[320px] mt-50' />
+        <div className='absolute border border-[#beab6a] rounded-full animate-ping w-[320px] h-[320px] mt-50' />
+        <div className='absolute border border-[#333] rounded-full animate-pulse  w-[650px] h-[650px] mt-50' />
     </motion.div>
   )
 }
