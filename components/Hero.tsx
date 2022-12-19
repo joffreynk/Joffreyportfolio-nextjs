@@ -9,7 +9,7 @@ const Hero = (props: Props) => {
       <BackgroundCircle />
 
 
-      <h1>
+      <h1 className="absolute">
         <Typewriter
             words={[
                 "Hi, there! I'm Joffrey, software engineer",
