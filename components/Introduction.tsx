@@ -7,7 +7,7 @@ type Props = {}
 
 const Introduction = (props: Props) => {  
   return (
-    <div className="h-screen flex flex-col justify-center items-center overflow-hidden text-center space-y-8">
+    <div className="h-screen flex xs:mt-40 first-letter: flex-col justify-center items-center overflow-hidden text-center space-y-8">
       <BackgroundCircle />
       <div>
       <Image  src='/professionalpicture.jpg'

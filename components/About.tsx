@@ -55,9 +55,9 @@ const About = (props: Props) => {
           Here is a little about me
         </h5>
         <p className='mt-0 pt-0'>
-        Hello I&#36m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don&#36t hestiate to contact me
+        Hello I&#39;m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don&#36t hestiate to contact me
         <br />
-        Hello I&#36m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don&#36t hestiate to contact me
+        Hello I&#39;m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don&#36t hestiate to contact me
         <br />
 
         </p>
