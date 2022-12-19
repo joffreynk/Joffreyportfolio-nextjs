@@ -13,7 +13,9 @@ export default function Home() {
         <Header />
 
         {/* Hero */}
-        <Hero/>
+        <section className=''>
+          <Hero/>
+        </section>
 
         {/* About */}
 
