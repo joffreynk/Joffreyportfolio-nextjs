@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Joffrey`s portfolio</title>
       </Head>
-      <main>
+      <main className='bg-[rgb(36,36,36)] text-white h-screen'>
         {/* header */}
         <Header />
 
