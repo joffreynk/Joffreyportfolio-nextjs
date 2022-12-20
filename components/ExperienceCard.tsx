@@ -71,7 +71,7 @@ const ExperienceCard = (props: Props) => {
         <ul className='list-disc space-y-1 xl:space-y-4 px-3 ml-5 text-lg'>
           <li>Designation and elaboration of the program</li>
           <li>Taught 1000+ people computer science</li>
-          <li> 7 months of technical support and computer maintenance</li>
+          <li>7 months of technical support and computer maintenance</li>
         </ul>
       
     </article>
