@@ -6,7 +6,7 @@ type Props = {}
 
 const ExperienceCard = (props: Props) => {
   return (
-    <article>
+    <article className='flex flex-col rounded-lg items-center space-y-3 flex-shrink-0 w-[300px] md:w-[450px] xl:w-[600px] snap-center py-5 bg-[#292929] opacity-50 overflow-hidden duration-200 cursor-pointer transition-opacity hover:opacity-100'>
       <motion.div
       initial={{
         y:-100,
@@ -29,11 +29,11 @@ const ExperienceCard = (props: Props) => {
         width={128}
         height={128}
         alt='Experience picture'
-        className='h-32 w-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
+        className='h-32 w-32 rounded-full xl:w-[120px] xl:h-[120px] object-cover object-center'
         />
       </motion.div>
       <div className='px-0 md:px-10'>
-        <h4 className='text-4xl font-light'>FuLL stack</h4>
+        <h4 className='text-xl md:text-2xl xl:text-5xl font-light'>FuLL stack</h4>
         <p className='font-bold text-2xl mt-1'>Microverse</p>
         <div className='flex space-x-2 my-2'>
           <Image
@@ -65,8 +65,8 @@ const ExperienceCard = (props: Props) => {
           height={40}
            />
         </div>
-        <p>April 18, 2022 - Now</p>
-        <ul className='list-disc space-y-4 ml-5 text-lg'>
+        <p className='py-2'>April 18, 2022 - Now</p>
+        <ul className='list-disc space-y-2 ml-5 text-lg'>
           <li>mentor junior developer</li>
           <li>mentor junior developer</li>
           <li>mentor junior developer</li>
