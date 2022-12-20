@@ -17,7 +17,7 @@ const Introduction = (props: Props) => {
       className=" relative rounded-full h-45 w-45 mx-auto -mt-28 object-cover"
       />
         </div>
-      <div className="z-20">
+      <div className="z-40">
         <h2 className=" text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Software engineer
         </h2>
