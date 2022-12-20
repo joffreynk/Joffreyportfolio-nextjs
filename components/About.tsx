@@ -28,7 +28,7 @@ const About = (props: Props) => {
         x:0
       }}
 
-      src={"/professionalpicture.jpg"}
+      src={"/passport.jpg"}
 
         alt="my professional picture"
 
