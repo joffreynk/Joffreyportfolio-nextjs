@@ -32,7 +32,7 @@ const Skills = (props: Props) => {
         <Skill />
 
       </div>
-      <div className='w-full absolute top-[30%] bg-[#f7ab8a]/10 ltf-0 h-[400px] skew-y-12' />
+      <div className='w-full absolute top-[37%] bg-[#f7ab8a]/10 ltf-0 h-[400px] skew-y-12' />
     </motion.div>
   )
 }
