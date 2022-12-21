@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import About from '../components/About';
+import Contacts from '../components/Contacts';
 import Header from '../components/Header';
 import Introduction from '../components/Introduction';
 import Projects from '../components/Projects';
@@ -41,9 +42,10 @@ export default function Home() {
         <Projects />
         </section>
 
-        <h3 id='projects' className='snap-start h-screen'>Hello</h3>
-
         {/* Contact Me */}
+        <section id='contacts' className='snap-start'>
+          <Contacts />
+        </section>
 
       </main>
     </>
